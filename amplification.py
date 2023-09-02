@@ -28,8 +28,8 @@ Answer: "
 
 
 async def sub_answer(
-    question: str = "What is the effect of creatine on cognition?",
     subquestion: str = "What is creatine?",
+    question: str = "What is the effect of creatine on cognition?",
     engine: str = "chatgpt",
 ) -> str:
     prompt = make_qa_prompt(question, subquestion)
