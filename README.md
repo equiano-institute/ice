@@ -143,3 +143,16 @@ Bibtex:
   url = {https://arxiv.org/abs/2301.01751}
 }
 ```
+
+### Benchmarking
+* Compare baseline with factored:
+	* GPT4  [**]
+	* Claude  []
+	* Chatgpt  []
+* Evaluate on Dan Hendrycks Ethics dataset:
+	* Justice:
+		* GPT4 (Base)   []
+		* GPT3.5 (Factored)  []
+	* Deontology:
+		* GPT4 (Base)  []
+		* GPT3.5 (Factored)  [**]
